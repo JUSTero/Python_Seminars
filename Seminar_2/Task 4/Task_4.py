@@ -1,0 +1,6 @@
+# -*- coding: cp1251 -*-
+
+string = input('¬ведите основную строку ')
+substring = input('¬ведите искомую строку ')
+
+print(string.count(substring))
