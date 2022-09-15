@@ -15,3 +15,4 @@ for i in range(N):
     numbers.append(float(input()))
 
 print("Сумма равна ", sum(numbers))
+
