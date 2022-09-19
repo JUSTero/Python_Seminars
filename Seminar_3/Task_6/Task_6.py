@@ -3,13 +3,9 @@
 
 lis = ['kfg', 324, 56, 67, 'dfg', 23, 432, 87, 3, 'hjg', 'fghd', 'dht', 56, 34, 12]
 N = int(input('Введите искомое число: '))
-count = 0
 
-for i in range(len(lis)):
+if N in lis:
+    print(f'Число {N} присутствует в списке')
 
-    if lis[i] == N:
-        print(f'Число {N} присутствует в списке')
-        break
-    count += 1
-    if count == len(lis):
-        print('Числа {N} в списке нет')
+else:
+    print('Числа {N} в списке нет')
